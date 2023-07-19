@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
+import SearchBar from './components/SearchBar';
 
 const App = () => {
   return (
@@ -9,7 +10,10 @@ const App = () => {
         <Sidebar/>
       </div>
       <div className='border w-full bg-stone-50'>
-        Main Content
+        <div className='border text-zinc-800 text-[32px] font-semibold leading-[42.90px] p-5 pt-10'>
+          Dashboard
+        </div>
+        <SearchBar/>
       </div>
     </div>
   )
