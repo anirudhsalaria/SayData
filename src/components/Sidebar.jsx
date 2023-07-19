@@ -6,14 +6,14 @@ const Sidebar = () => {
       {/* profile */}
 
       <div className=' pt-10 py-2.5 px-5 flex justify-between'>
-        <div className=''>
+        <div className='cursor-pointer'>
           <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80" alt="image" className='w-11 h-11 rounded-[5px]' />
         </div>
         <div className='grid grid-rows-1 ml-[12px] '>
           <span className='text-white text-[13px] font-normal leading-[20.90px]'>Shekhar Kushwaha</span>
-          <span className='text-orange-500 text-[13px] font-normal leading-[20.90px]'>Upgrade to Pro</span>
+          <span className='text-orange-500 text-[13px] font-normal leading-[20.90px] cursor-pointer'>Upgrade to Pro</span>
         </div>
-        <div className=' flex'>
+        <div className=' flex cursor-pointer'>
           <svg className=' m-auto' width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Group 15">
               <path id="Vector 9" d="M7 13L13 7L7 0.999999" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -25,7 +25,7 @@ const Sidebar = () => {
 
       {/* Options */}
       <div className=' grid grid-rows-1 p-4 gap-5 mt-6'>
-        <div className='flex  px-[20px] py-[7px] gap-2 bg-orange-500 rounded-md'>
+        <div className=' cursor-pointer flex  px-[20px] py-[7px] gap-2 bg-orange-500 rounded-md'>
           <div className=' flex'>
             <svg className='m-auto' width="15" height="15" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="Group 16">
@@ -37,7 +37,7 @@ const Sidebar = () => {
             Dashboard
           </div>
         </div>
-        <div className='flex  px-[20px] py-[7px] gap-2  rounded-md'>
+        <div className='cursor-pointer flex  px-[20px] py-[7px] gap-2  rounded-md'>
           <div className=' flex'>
             <svg className="m-auto" width="15" height="15" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="Group 17">
@@ -53,7 +53,7 @@ const Sidebar = () => {
             Calender
           </div>
         </div>
-        <div className='flex  px-[20px] py-[7px] gap-2  rounded-md'>
+        <div className='cursor-pointer flex  px-[20px] py-[7px] gap-2  rounded-md'>
           <div className=' flex'>
 
             <svg className='m-auto' width="15" height="15" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@ const Sidebar = () => {
             Folder
           </div>
         </div>
-        <div className='flex  px-[20px] py-[7px] gap-2  rounded-md'>
+        <div className='cursor-pointer flex  px-[20px] py-[7px] gap-2  rounded-md'>
           <div className=' flex'>
 
             <svg className='m-auto' width="15" height="15" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@ const Sidebar = () => {
 
       {/* Ending options */}
       <div className='grid grid-rows-1 p-4 gap-2  mt-64'>
-        <div className='flex px-[20px] py-[7px] gap-2 '>
+        <div className='cursor-pointer flex px-[20px] py-[7px] gap-2 '>
           <div className='flex'>
             <svg className='m-auto' width="15" height="15" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="Group 22">
@@ -101,7 +101,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className='flex px-[20px] py-[7px] gap-2 '>
+        <div className='cursor-pointer flex px-[20px] py-[7px] gap-2 '>
           <div className='flex'>
             <svg className="m-auto" width="15" height="15" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="Group 23">
