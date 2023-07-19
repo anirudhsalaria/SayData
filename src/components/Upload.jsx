@@ -11,7 +11,7 @@ const Upload = () => {
                     <div className=' mt-24'>
                         <div className=' text-zinc-800 text-base font-medium leading-[20.90px]'>Select Transcription language</div>
                         <div className=' text-zinc-800 text-sm font-normal leading-[18.70px] mt-3'>
-                            <select className='bg-stone-50  rounded-md px-2' name="languages" id="language">
+                            <select className='bg-stone-50 border border-orange-500 rounded-md px-2' name="languages" id="language">
                                 <option value="English">English (U.K) </option>
                                 <option value="Hindi">Hindi</option>
                             </select>

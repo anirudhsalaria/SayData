@@ -3,9 +3,9 @@ import React from 'react'
 const SearchBar = () => {
   return (
     <div className=' p-3 text-center relative flex flex-wrap items-stretch justify-center'>
-      <input type="search" name="searchbar" id="sb" className='text-zinc-800 w-[824px] h-10 bg-white rounded-l-[20px] shadow  -orange-500' placeholder='Search your transcriptions' aria-describedby="button-addon1" />
+      <input type="search" name="searchbar" id="sb" className='text-zinc-800 w-[824px] h-10 bg-white rounded-l-[20px] shadow border border-orange-500' placeholder='Search your transcriptions' aria-describedby="button-addon1" />
       <button
-      className=" -orange-500 bg-white relative z-[2] flex items-center rounded-r px-6 py-2 text-xs font-medium uppercase leading-tight text-white shadow-md "
+      className="border border-orange-500 bg-white relative z-[2] flex items-center rounded-r px-6 py-2 text-xs font-medium uppercase leading-tight text-white shadow-md "
       type="button"
       id="button-addon1"
       data-te-ripple-init
