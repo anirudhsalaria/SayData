@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import SearchBar from './components/SearchBar';
 import Upload from './components/Upload';
+import Connect from './components/Connect';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         </div>
         <SearchBar/>
         <Upload/>
+        <Connect/>
       </div>
     </div>
   )
