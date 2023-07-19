@@ -3,11 +3,11 @@ import React from 'react'
 const Recents = () => {
     return (
         <div className='border w-full p-3'>
-            <div className='border flex justify-between'>
-                <div className='ml-5 border text-zinc-800 text-xl font-semibold leading-loose'>
+            <div className=' flex justify-between'>
+                <div className='ml-5  text-zinc-800 text-xl font-semibold leading-loose'>
                     Recents
                 </div>
-                <div className='flex border gap-3 mr-5'>
+                <div className='flex  gap-3 mr-5'>
                     <div className='flex'>
                         <svg className='m-auto' width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Group">
@@ -16,6 +16,65 @@ const Recents = () => {
                         </svg>
                     </div>
                     <div className='m-auto text-zinc-800 text-md font-medium leading-normal'>Filter</div>
+                </div>
+            </div>
+
+            {/* Recents content */}
+
+            <div className=' mt-6'>
+                <div className='flex px-3 justify-between'>
+                    <div className=' text-zinc-800 text-base font-medium leading-[20.90px]'>File Name</div>
+
+                    <div className=' flex md:gap-[138px]  text-zinc-800 text-base font-medium leading-[20.90px]'>
+                        <div className=' px-2'>Duration</div>
+                        <div className=' px-2'>Created by</div>
+                        <div className=' px-2'>Created on</div>
+                    </div>
+                </div>
+            </div>
+
+            <div className=' mt-3 bg-white shadow-xl'>
+                <div className='flex p-3 justify-between text-zinc-800 text-base font-normal leading-[20.90px]'>
+                    <div className=''>Induction Seminar</div>
+
+                    <div className=' flex md:gap-28'>
+                        <div className=' '>1 hr 20 min</div>
+                        <div className=''>Shekhar Kushwaha</div>
+                        <div className=''>20 march 2023</div>
+                    </div>
+                </div>
+            </div>
+            <div className=' mt-3 bg-white shadow-xl'>
+                <div className='flex p-3 justify-between text-zinc-800 text-base font-normal leading-[20.90px]'>
+                    <div className=''>Induction Seminar</div>
+
+                    <div className=' flex md:gap-28'>
+                        <div className=' '>1 hr 20 min</div>
+                        <div className=''>Shekhar Kushwaha</div>
+                        <div className=''>20 march 2023</div>
+                    </div>
+                </div>
+            </div>
+            <div className=' mt-3 bg-white shadow-xl'>
+                <div className='flex p-3 justify-between text-zinc-800 text-base font-normal leading-[20.90px]'>
+                    <div className=''>Induction Seminar</div>
+
+                    <div className=' flex md:gap-28'>
+                        <div className=' '>1 hr 20 min</div>
+                        <div className=''>Shekhar Kushwaha</div>
+                        <div className=''>20 march 2023</div>
+                    </div>
+                </div>
+            </div>
+            <div className=' mt-3 bg-white shadow-xl'>
+                <div className='flex p-3 justify-between text-zinc-800 text-base font-normal leading-[20.90px]'>
+                    <div className=''>Induction Seminar</div>
+
+                    <div className=' flex md:gap-28'>
+                        <div className=' '>1 hr 20 min</div>
+                        <div className=''>Shekhar Kushwaha</div>
+                        <div className=''>20 march 2023</div>
+                    </div>
                 </div>
             </div>
         </div>
