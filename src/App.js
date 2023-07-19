@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import SearchBar from './components/SearchBar';
+import Upload from './components/Upload';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           Dashboard
         </div>
         <SearchBar/>
+        <Upload/>
       </div>
     </div>
   )
