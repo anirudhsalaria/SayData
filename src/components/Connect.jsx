@@ -2,7 +2,7 @@ import React from 'react'
 
 const Connect = () => {
     return (
-        <div className='w-full border md:flex sm:inline-block p-4'>
+        <div className='w-full  md:flex sm:inline-block p-4'>
             <div className=' p-2 shadow-2xl rounded-lg'>
                 <div className='text-zinc-800 text-lg font-medium leading-normal'>Connect your Google calendar</div>
                 <div className='mt-2 w-[270px] text-zinc-800 text-sm font-normal leading-[18.70px]'>Sync your google calendar for seamless event transcriptions.</div>
@@ -31,7 +31,7 @@ const Connect = () => {
                             </g>
                         </svg>
                     </div>
-                    <div className='flex'>
+                    <div className='flex cursor-pointer'>
                         <svg className='m-auto' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Group 6">
                                 <circle id="Ellipse 47" cx="12" cy="12" r="12" fill="#FF6C0A" />
@@ -64,7 +64,7 @@ const Connect = () => {
                             </g>
                         </svg>
                     </div>
-                    <div className='flex'>
+                    <div className='flex cursor-pointer'>
                         <svg className='m-auto' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Group 6">
                                 <circle id="Ellipse 47" cx="12" cy="12" r="12" fill="#FF6C0A" />

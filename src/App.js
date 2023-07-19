@@ -12,8 +12,8 @@ const App = () => {
       <div className='w-[284px]'>
         <Sidebar/>
       </div>
-      <div className='border w-full bg-stone-50'>
-        <div className='border text-zinc-800 text-[32px] font-semibold leading-[42.90px] p-5 pt-10'>
+      <div className=' w-full bg-stone-50'>
+        <div className=' text-zinc-800 text-[32px] font-semibold leading-[42.90px] p-5 pt-10'>
           Dashboard
         </div>
         <SearchBar/>

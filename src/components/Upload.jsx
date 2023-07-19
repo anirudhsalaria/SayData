@@ -2,7 +2,7 @@ import React from 'react'
 
 const Upload = () => {
     return (
-        <div className='border p-5'>
+        <div className=' p-5'>
             <div className=' rounded-lg shadow-2xl p-5 md:flex sm:inline-block'>
                 <div className=''>
                     <div className=' text-zinc-800 text-2xl font-semibold leading-loose'>
