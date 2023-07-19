@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import SearchBar from './components/SearchBar';
 import Upload from './components/Upload';
 import Connect from './components/Connect';
+import Recents from './components/Recents';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <SearchBar/>
         <Upload/>
         <Connect/>
+        <Recents/>
       </div>
     </div>
   )

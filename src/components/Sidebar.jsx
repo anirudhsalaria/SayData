@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div className='h-screen bg-zinc-800 '>
+    <div className='h-full bg-zinc-800 '>
       {/* profile */}
 
       <div className=' pt-10 py-2.5 px-5 flex justify-between'>
