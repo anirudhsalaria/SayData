@@ -35,8 +35,8 @@ const Connect = () => {
                         <svg className='m-auto' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Group 6">
                                 <circle id="Ellipse 47" cx="12" cy="12" r="12" fill="#FF6C0A" />
-                                <path id="Vector 52" d="M12 6.66667L12 17.3333" stroke="white" stroke-width="1.6" stroke-linecap="round" />
-                                <path id="Vector 53" d="M17.3333 12L6.66666 12" stroke="white" stroke-width="1.6" stroke-linecap="round" />
+                                <path id="Vector 52" d="M12 6.66667L12 17.3333" stroke="white" strokeWidth="1.6" strokeLinecap="round" />
+                                <path id="Vector 53" d="M17.3333 12L6.66666 12" stroke="white" strokeWidth="1.6" strokeLinecap="round" />
                             </g>
                         </svg>
                     </div>
@@ -68,8 +68,8 @@ const Connect = () => {
                         <svg className='m-auto' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Group 6">
                                 <circle id="Ellipse 47" cx="12" cy="12" r="12" fill="#FF6C0A" />
-                                <path id="Vector 52" d="M12 6.66667L12 17.3333" stroke="white" stroke-width="1.6" stroke-linecap="round" />
-                                <path id="Vector 53" d="M17.3333 12L6.66666 12" stroke="white" stroke-width="1.6" stroke-linecap="round" />
+                                <path id="Vector 52" d="M12 6.66667L12 17.3333" stroke="white" strokeWidth="1.6" strokeLinecap="round" />
+                                <path id="Vector 53" d="M17.3333 12L6.66666 12" stroke="white" strokeWidth="1.6" strokeLinecap="round" />
                             </g>
                         </svg>
                     </div>

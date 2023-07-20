@@ -83,7 +83,7 @@ const Recents = () => {
                     <div className='text-orange-500 text-xs font-normal leading-none'>View more</div>
                     <div className='flex cursor-pointer'>
                         <svg className='m-auto' width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path id="Vector 9" d="M13 0.5L7 6.5L1 0.500001" stroke="#FF6C0A" stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector 9" d="M13 0.5L7 6.5L1 0.500001" stroke="#FF6C0A" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </div>
                 </div>
