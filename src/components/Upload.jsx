@@ -1,6 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react';
 
 const Upload = () => {
+    const fileInputRef = useRef(null);
+
+    const handleFileUpload = (event) => {
+        const file = event.target.files[0];
+        
+        console.log('Selected file:', file);
+    };
+
+    const handleClick = () => {
+        fileInputRef.current.click();
+    };
+
+
+
     return (
         <div className=' p-5'>
             <div className=' rounded-lg shadow-2xl p-5 md:flex sm:inline-block'>
@@ -29,7 +43,14 @@ const Upload = () => {
                         </svg>
                     </div>
                     <div className=' mt-2'>
-                        <button className='bg-orange-500 px-4 py-1 text-white rounded-md text-md'>
+                        <input
+                            type="file"
+                            accept="video/*"
+                            style={{ display: 'none' }}
+                            ref={fileInputRef}
+                            onChange={handleFileUpload}
+                        />
+                        <button onClick={handleClick} className='bg-orange-500 px-4 py-1 text-white rounded-md text-md'>
                             Upload Video/Audio File
                         </button>
                     </div>
