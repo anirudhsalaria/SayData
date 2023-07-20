@@ -5,6 +5,7 @@ import SearchBar from './components/SearchBar';
 import Upload from './components/Upload';
 import Connect from './components/Connect';
 import Recents from './components/Recents';
+import Api from './components/Api';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Upload/>
         <Connect/>
         <Recents/>
+        <Api/>
       </div>
     </div>
   )
